@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.atc {
+  display: flex;
+  gap: 20px;
+}
+.add {
+  background-color: rgb(236 49 49);
+  color: #fff;
+}
+.search {
+  color: #fff;
+  background-color: #05ac05;
+}
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+.todos {
+  width: 500px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+.edit,
+.delete,
+  .complete {
+    min-width: 80px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit:hover,
+.delete:hover {
+  background-color: #ccc;
+}
+.todos > li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ 
+  .cfa {
+    display: flex;
+    gap: 5px;
+   .complete{
+    background-color: yellow;
+   }
+    .edit {
+      background-color: rgba(42, 236, 42, 0.718);
+    }
+    .delete {
+      background-color: rgb(206, 68, 68);
+    }
+    span{
+      color: green;
+      margin-right: 5px;
+    }
+  }
+}
+.completed {
+  text-decoration: line-through;
+}
+
+/* Màu sắc */
