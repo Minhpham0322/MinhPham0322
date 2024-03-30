@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: 0;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: $font;
+  font-size: $font;
+  color: $textColor;
+  line-height: 1.25;
+  // overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: $linkColor;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+ul,
+li {
+  list-style: none;
+}

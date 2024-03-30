@@ -1,0 +1,116 @@
+.product {
+    width: 1200px;
+    margin: 0 auto;
+    .header-product {
+      font-size: 31.667px;
+      text-align: center;
+      font-weight: 800;
+      margin-bottom: 50px;
+    }
+    .row {
+      gap: 83.38px;
+      display: flex;
+      color: $textColor;
+      justify-content: center;
+      align-items: center;
+      .item-2,.item-5{ 
+       .group{ 
+        .image{ 
+            background: #C5FFA8;
+        }
+       }
+      }
+
+      .group {
+        width: 269.316px;
+        height: auto;
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        .image {
+          position: relative;
+          background: #ffba94;
+          width: 269.316px;
+          height: 269.316px;
+          border-radius: 99%;
+          margin-bottom: 103.67px;
+
+          img {
+            // width: 240.117px;
+            // height: 241.148px;
+            position: absolute;
+            bottom: -50%;
+            transform: translateY(-20%);
+          }
+        }
+        .title {
+          display: inline-block;
+          text-align: center;
+          margin: 0 auto;
+          //  position: absolute;
+          font-size: 28px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          text-wrap: nowrap;
+          position: relative;
+          margin-bottom: 30px;
+          &:hover {
+            color: #46b20f;
+          }
+          .line {
+            position: absolute;
+            // bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40.833px;
+            height: 2px;
+            background-color: #656565;
+            margin-top: 13px;
+          }
+        }
+
+        .sub-title {
+          text-align: center;
+          span:nth-child(1) {
+            display: block;
+            color: #656565;
+            font-size: 16.667px;
+            font-weight: 400;
+          }
+
+          span:nth-child(2) {
+            display: flex;
+            align-items: baseline;
+            font-size: 16.667px;
+            margin-bottom: 31px;
+            font-weight: 400;
+            line-height: 21.667px;
+            .price {
+              font-size: 23.333px;
+              font-weight: 600;
+              line-height: 26.667px;
+            }
+          }
+        }
+        .btn-link {
+          padding: 13.333px 11.667px;
+          background-color: #46b20f;
+          border-radius: 6.667px;
+          margin-bottom: 128px;
+          span {
+            color: #fff;
+            text-align: center;
+
+            font-family: Inter;
+            font-size: 20px;
+
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
